@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>My Image Gallery</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#nature">Nature</a></li>
+                <li><a href="#bikes">Bikes</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#superheroes">Superheroes</a></li>
+                <li><a href="#animals">Animals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="nature" class="gallery-section">
+        <h2>Nature</h2>
+        <div class="gallery-grid">
+            <img src="images/nature/nature1.jpg" alt="Nature 1" class="gallery-img" data-category="nature">
+            <img src="images/nature/nature2.jpg" alt="Nature 2" class="gallery-img" data-category="nature">
+            <img src="images/nature/nature3.jpg" alt="Nature 3" class="gallery-img" data-category="nature">
+            <img src="images/nature/nature4.avif" alt="Nature 4" class="gallery-img" data-category="nature">
+            <img src="images/nature/nature5.jpeg" alt="Nature 5" class="gallery-img" data-category="nature">
+        </div>
+    </section>
+
+    <section id="bikes" class="gallery-section">
+        <h2>Bikes</h2>
+        <div class="gallery-grid">
+            <img src="images/bikes/bike1.jpg" alt="Bike 1" class="gallery-img" data-category="bikes">
+            <img src="images/bikes/bike2.webp" alt="Bike 2" class="gallery-img" data-category="bikes">
+            <img src="images/bikes/bike3.jpeg" alt="Bike 3" class="gallery-img" data-category="bikes">
+            <img src="images/bikes/bike4.webp" alt="Bike 4" class="gallery-img" data-category="bikes">
+            <img src="images/bikes/bike5.jpeg" alt="Bike 5" class="gallery-img" data-category="bikes">
+        </div>
+    </section>
+
+    <section id="cars" class="gallery-section">
+        <h2>Cars</h2>
+        <div class="gallery-grid">
+            <img src="images/cars/car1.jpeg" alt="Car 1" class="gallery-img" data-category="cars">
+            <img src="images/cars/car2.avif" alt="Car 2" class="gallery-img" data-category="cars">
+            <img src="images/cars/car3.webp" alt="Car 3" class="gallery-img" data-category="cars">
+            <img src="images/cars/car4.jpg" alt="Car 4" class="gallery-img" data-category="cars">
+            <img src="images/cars/car5.webp" alt="Car 5" class="gallery-img" data-category="cars">
+        </div>
+    </section>
+
+    <section id="superheroes" class="gallery-section">
+        <h2>Superheroes</h2>
+        <div class="gallery-grid">
+            <img src="images/superheroes/hero1.jpeg" alt="Hero 1" class="gallery-img" data-category="superheroes">
+            <img src="images/superheroes/hero2.jpeg" alt="Hero 2" class="gallery-img" data-category="superheroes">
+            <img src="images/superheroes/hero3.jpeg" alt="Hero 3" class="gallery-img" data-category="superheroes">
+            <img src="images/superheroes/hero4.jpeg" alt="Hero 4" class="gallery-img" data-category="superheroes">
+            <img src="images/superheroes/hero5.jpeg" alt="Hero 5" class="gallery-img" data-category="superheroes">
+        </div>
+    </section>
+
+    <section id="animals" class="gallery-section">
+        <h2>Animals</h2>
+        <div class="gallery-grid">
+            <img src="images/animals/animal1.jpeg" alt="Animal 1" class="gallery-img" data-category="animals">
+            <img src="images/animals/animal2.jpeg" alt="Animal 2" class="gallery-img" data-category="animals">
+            <img src="images/animals/animal3.jpeg" alt="Animal 3" class="gallery-img" data-category="animals">
+            <img src="images/animals/animal4.jpeg" alt="Animal 4" class="gallery-img" data-category="animals">
+            <img src="images/animals/animal5.jpeg" alt="Animal 5" class="gallery-img" data-category="animals">
+        </div>
+    </section>
+
+    <div class="lightbox">
+        <span class="close">×</span>
+        <img class="lightbox-img" src="">
+        <button class="prev">←</button>
+        <button class="next">→</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
